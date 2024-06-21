@@ -1,7 +1,9 @@
-# Final Year Research Project
+# Virtual-Human-Controlled-Interaction
+
+### Final Year Research Project
 
 It is my final year project. I develop a system that can detect face from video captured by webcam. The system keeps track of face movement and moves mouse based on head movement.The challenge is to develop a hands-free Human-Computer Interaction (HCI) system that enables amputees and individuals with limited hand mobility to operate computers effectively. The system needs to accurately interpret eye movements and convert them into meaningful cursor actions.
-# Library Used
+### Library Used
 
 cv2: OpenCV library for computer vision. numpy as np: NumPy library for numerical operations. pynput.mouse: pynput library for controlling the mouse. wx: wxPython library for GUI components. time: Python standard library for time-related functions. Initialization: mouse: pynput mouse controller. app: wxPython application. (sx, sy): Screen size. face_cascade: Haar Cascade classifier for face detection. cap: Video capture object (assumed to be the default camera). Variables:
 
